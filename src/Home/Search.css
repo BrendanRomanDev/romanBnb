@@ -48,3 +48,11 @@
 	background-color: white;
 	color: #ff7779;
 }
+
+@media all and (max-width: 768px) {
+	.search {
+		position: absolute;
+		top: 35px;
+		left: 0;
+	}
+}

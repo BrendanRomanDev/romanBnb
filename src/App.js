@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from './GlobalComponents/Header';
+import Navbar from './GlobalComponents/Navbar';
 import Home from './Home/Home';
 import Footer from './GlobalComponents/Footer';
 import SearchPage from './SearchPage/SearchPage';
@@ -10,8 +10,7 @@ function App() {
 	return (
 		<div className="app">
 			<Router>
-				<Header />
-
+				<Navbar />
 				<Switch>
 					<Route path="/search">
 						<SearchPage />
@@ -20,7 +19,6 @@ function App() {
 						<Home />
 					</Route>
 				</Switch>
-
 				<Footer />
 			</Router>
 			{/* SearchPage */}
